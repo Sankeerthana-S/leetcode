@@ -17,7 +17,7 @@ class ListNode {
 
 // Time Complexity - O(n) where n is the number of digits in the linked list
 // Space Complexity - O(1)
-function addTwoNumbers(l1: ListNode | null, l2: ListNode | null) {
+function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | null {
     let curr = new ListNode();
     let tempNode = curr;
     let remain = 0;
